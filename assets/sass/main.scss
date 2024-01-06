@@ -86,7 +86,18 @@ $on-widescreen: 1152px;
 @import "dark";
 @import "listpage";
 @import "custom";
+@import "tags";
 
-{{ with .Site.Params.goToTop }}
+    {
+        {
+        with .Site.Params.goToTop
+    }
+}
+
 @import "goToTop";
-{{ end }}
+
+    {
+        {
+        end
+    }
+}

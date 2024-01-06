@@ -1,0 +1,15 @@
+.tag {
+    margin: 0 2px;
+    padding: 4px 10px;
+    color: $black !important;
+    background: $dark-toc-bg;
+    background: $toc-bg;
+    border-radius: .3rem;
+    font-size: 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
